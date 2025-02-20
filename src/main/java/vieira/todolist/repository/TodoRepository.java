@@ -1,4 +1,6 @@
 package vieira.todolist.repository;
 
-public interface TodoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TodoRepository extends JpaRepository {
 }
